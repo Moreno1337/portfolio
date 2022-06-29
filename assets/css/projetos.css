@@ -27,7 +27,11 @@
 
 .projetos__imagem {
     width: 100%;
-    height: 250px;
+    height: 300px;
+}
+
+.projetos__imagem--vandeco {
+    background-color: black;
 }
 
 .projetos__nome {
