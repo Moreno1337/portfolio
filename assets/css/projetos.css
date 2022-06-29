@@ -13,6 +13,7 @@
     ;
     margin-top: 2rem;
     align-items: center;
+    justify-content: space-around;
 }
 
 .projetos__item-lista {
@@ -20,7 +21,8 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 25vw;
+    width: 35vw;
+    max-width: 300px;
     height: 100%;
     justify-content: space-between;
 }
@@ -77,7 +79,7 @@
     }
 
     .projetos__imagem {
-        max-height: 250px;
+        max-height: 300px;
         height: 50vw;
     }
 }
@@ -88,10 +90,6 @@
         "projeto projeto"
         "projeto projeto"
         ;
-    }
-
-    .projetos__item-lista {
-        width: 300px;
     }
 
     .projetos__item-lista:nth-child(5) {
