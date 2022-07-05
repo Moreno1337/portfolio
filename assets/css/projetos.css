@@ -38,6 +38,11 @@
 
 .projetos__imagem--hzc {
     background-color: #1D232A;
+    padding: 4rem;
+}
+
+.projetos__imagem--casaverde {
+    padding: 0 2rem;
 }
 
 .projetos__nome {
