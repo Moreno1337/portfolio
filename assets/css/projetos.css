@@ -36,6 +36,10 @@
     background-color: black;
 }
 
+.projetos__imagem--hzc {
+    background-color: #1D232A;
+}
+
 .projetos__nome {
     font-size: 1.5rem;
     font-weight: 700;
