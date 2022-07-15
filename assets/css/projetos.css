@@ -28,21 +28,31 @@
 }
 
 .projetos__imagem {
-    width: 100%;
+    width: 85%;
     height: 300px;
 }
 
-.projetos__imagem--vandeco {
-    background-color: black;
+.imagem-frame {
+    background-color: var(--cinza);
+    box-shadow: 0 0 50px #000000 inset;
+    height: 300px;
+    position: relative;
+}
+
+.imagem-embreve {
+    width: 100%;
+    color: white;
+    padding: 1rem 0;
+    font-family: var(--kdam);
+    font-size: 2rem;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: calc(150px - 1.5rem);
+    box-shadow: 0 0 10px #000000 inset;
 }
 
 .projetos__imagem--hzc {
-    background-color: #1D232A;
-    padding: 4rem;
-}
-
-.projetos__imagem--casaverde {
-    padding: 0 2rem;
+    width: 60%;
 }
 
 .projetos__nome {
