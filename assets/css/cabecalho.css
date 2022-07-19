@@ -26,6 +26,10 @@
     display: flex;
 }
 
+.cabecalho__container span {
+    display: none;
+}
+
 .cabecalho__link {
     color: var(--preto);
     font-weight: 500;
@@ -48,6 +52,7 @@
     }
 
     .cabecalho__container span {
+        display: block;
         content: url(../icon/menu.svg);
         width: 10vw;
         max-width: 30px;

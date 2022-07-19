@@ -37,6 +37,9 @@
     box-shadow: 0 0 50px #000000 inset;
     height: 300px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imagem-embreve {
@@ -93,6 +96,11 @@
     .projetos__item-lista {
         width: 70vw;
         max-width: 300px;
+    }
+
+    .imagem-frame {
+        height: 70vw;
+        max-height: 300px;
     }
 
     .projetos__item-lista:nth-child(4) {
