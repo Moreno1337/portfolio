@@ -67,6 +67,7 @@
 }
 
 .projetos__link {
+    width: fit-content;
     font-family: var(--kdam);
     color: var(--preto);
     display: inline-block;
@@ -76,6 +77,7 @@
     text-transform: uppercase;
     transition: 300ms;
     justify-self: flex-end;
+    align-self: center;
 }
 
 .projetos__link:hover {

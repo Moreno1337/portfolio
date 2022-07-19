@@ -44,9 +44,10 @@
     .cabecalho__container {
         flex-direction: row;
         width: 100vw;
+        position: relative;
     }
 
-    .cabecalho__container nav {
+    .cabecalho__container span {
         content: url(../icon/menu.svg);
         width: 10vw;
         max-width: 30px;
@@ -54,13 +55,31 @@
     }
 
     .cabecalho__navegacao {
-        display: none;
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+        justify-content: space-around;
+        top: 7.1rem;
+        right: 0;
+        background-color: var(--branco);
+        width: 70vw;
+        max-width: 300px;
+        height: 150px;
+        transition: 500ms;
+    }
+
+    .cabecalho__esconde {
+        opacity: 0;
     }
 
     .cabecalho__logo-link {
         width: 30%;
         max-width: 160px;
         margin-left: 7vw;
+    }
+
+    .cabecalho__link {
+        font-size: 1.3rem;
     }
 }
 
