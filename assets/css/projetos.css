@@ -94,12 +94,17 @@
     background-color: var(--roxo);
     font-family: var(--montserrat);
     color: var(--branco);
-    margin: 2rem auto 0 auto;
+    margin-top: 2rem;
+    text-decoration: none;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .projetos__ver-mais:hover{
     background-color: var(--branco);
     color: var(--roxo);
+    cursor: pointer;
 }
 
 .projetos__ver-mais:active {
